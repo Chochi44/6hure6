@@ -12,8 +12,6 @@ body
   background: radial-gradient(circle at bottom, navy 0, black 100%);
   height: 95vh;
   overflow: hidden;
- 
-
 }
 
 .space 
@@ -26,7 +24,7 @@ body
   right: 0;
   top: 0;
   width: 100%;
-  height: 150%;
+  height: 200%;
   border-bottom-left-radius: 50%;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
