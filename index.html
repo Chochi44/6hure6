@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div class="space stars"></div>
+  <div class="space starss"></div>
+  <div class="space starsss"></div>
+  <div class="space starssss"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HurEirians</title>
+    <style>
+      body {
+        background: radial-gradient(circle at bottom, navy 0, black 100%);
+        height: 95vh;
+        overflow: hidden;
+      }
+
+      .space {
+        background: rgba(128, 0, 128, 0.1) center / 190px 190px round;
+        border: 0.5px dashed rgb(65, 6, 65);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 200%;
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+      }
+
+      .stars {
+        animation: space 30s ease-in-out infinite;
+        background-image: radial-gradient(
+            2px 2px at 50px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 100px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 250px 140px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 50px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 100px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 250px 140px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 15px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 220px 160px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+      .starss {
+        animation: space 40s ease-in-out infinite;
+        background-image: radial-gradient(
+            1px 1px at 25px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 50px 25px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 125px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 25px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 50px 25px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 125px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 15px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 50px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 110px 80px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+
+      .starsss {
+        animation: space 50s ease-in-out infinite;
+        background-image: radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 169px 69px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 100px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 10px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+      .starssss {
+        animation: space 60s ease-in-out infinite;
+        background-image: radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 169px 69px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 100px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 10px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+
+      @keyframes space {
+        40% {
+          opacity: 0.75;
+        }
+        50% {
+          opacity: 0.25;
+        }
+        60% {
+          opacity: 0.75;
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      body {
+        background: radial-gradient(circle at bottom, navy 0, black 100%);
+        height: 95vh;
+        overflow: hidden;
+      }
+
+      .space {
+        background: rgba(128, 0, 128, 0.1) center / 190px 190px round;
+        border: 0.5px dashed rgb(65, 6, 65);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 200%;
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-top-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+      }
+
+      .stars {
+        animation: space 30s ease-in-out infinite;
+        background-image: radial-gradient(
+            2px 2px at 50px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 100px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 250px 140px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 50px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 100px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 250px 140px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 15px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 220px 160px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+      .starss {
+        animation: space 40s ease-in-out infinite;
+        background-image: radial-gradient(
+            1px 1px at 25px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 50px 25px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 125px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 25px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 50px 25px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 125px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 15px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 50px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 110px 80px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+
+      .starsss {
+        animation: space 50s ease-in-out infinite;
+        background-image: radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 169px 69px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 100px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 10px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+      .starssss {
+        animation: space 60s ease-in-out infinite;
+        background-image: radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 75px 125px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            1px 1px at 100px 75px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            2px 2px at 20px 50px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            3px 3px at 169px 69px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 100px 5px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          ),
+          radial-gradient(
+            4px 4px at 10px 10px,
+            hsl(51, 71%, 57%),
+            hsla(0, 0%, 100%, 0)
+          );
+      }
+
+      @keyframes space {
+        40% {
+          opacity: 0.75;
+        }
+        50% {
+          opacity: 0.25;
+        }
+        60% {
+          opacity: 0.75;
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="level_banner_background"
+      src="level_banner_background.png"
+      alt="level_banner_background"
+    />
+    <img class="head_banner" src="head_banner.png" alt="head_banner" />
+    <img class="logo" src="logo.jpg" alt="" />
+    <img class="begin_banner" src="begin_banner.png" alt="" />
+    <p>Level 1</p>
+    <p>Level 2</p>
+    <p>Begin</p>
+  </body>
+</html>
