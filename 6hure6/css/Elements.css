@@ -1,0 +1,112 @@
+.navBox {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background-color: violet;
+  height: 40px;
+}
+
+.logo {
+  height: 10%;
+  width: 7%;
+  position: fixed;
+  top: 1%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: violet;
+  opacity: 80%;
+  border-radius: 0 0 15px 15px;
+}
+
+li {
+  display: inline;
+  color: violet;
+}
+
+li a {
+  align-self: center;
+  display: inline-block;
+  width: 15vw;
+  height: 5vh;
+  background-color: violet;
+  color: white;
+  padding: 5vh 2.5vw;
+  text-decoration: none;
+  text-align: center;
+  transition: ease-in-out 250ms;
+}
+
+li a:hover,
+a:active {
+  background-color: rgb(105, 57, 105);
+}
+
+.AllighClass {
+  margin-left: 7%;
+}
+
+.Heading {
+  color: white;
+  display: block;
+  background-color: violet;
+  opacity: 80%;
+  text-align: center;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 0 0 15px 15px;
+}
+
+.Intro {
+  color: white;
+  display: block;
+  background-color: violet;
+  opacity: 80%;
+  text-align: center;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  line-height: 45px;
+}
+
+.IntroText {
+  color: white;
+  display: inherit;
+  text-align: center;
+}
+
+.IntroPic {
+  border-radius: 15px 15px 15px 15px;
+  width: 100%;
+  opacity: 100%;
+}
+
+#frame {
+  color: white;
+  display: block;
+  background-color: violet;
+  opacity: 80%;
+  text-align: center;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  line-height: 25px;
+}
+
+#check {
+  line-height: 25px;
+  font-family: "Press Start 2P", cursive;
+  display: inline-block;
+  background-color: violet;
+  color: white;
+  opacity: 100%;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  border-color: white;
+  border-width: 4px;
+}
