@@ -1,0 +1,165 @@
+.navBox { 
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+    height: 40px;
+}
+
+.logo {
+    height: 10%;
+    width: 7%;
+    position: fixed;
+    top: 1%;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+    opacity: 80%;
+    border-radius:  0 0 15px 15px;
+}
+
+li {
+   
+    display: inline;
+    color:violet;
+}
+
+li a {
+    align-self: center;
+    display: inline-block;
+    width: 15vw;
+    height: 5vh;
+    background-color: violet;
+    color: white;
+    padding: 5vh 2.5vw;
+    text-decoration: none;
+    text-align: center;
+    transition: ease-in-out 250ms;
+    
+}
+
+li a:hover, a:active {
+    background-color: rgb(105, 57, 105);
+}
+
+.AllighClass {
+    margin-left: 7%;
+}
+
+.Heading {
+    color: white;
+    display: block;
+    background-color: violet;
+    opacity: 80%;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius:  0 0 15px 15px;
+}
+
+.Intro {
+    color: white;
+    display: block;
+    background-color: violet;
+    opacity: 80%;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius:  15px 15px 15px 15px;
+    line-height: 25px;
+}
+
+.IntroText {
+    color: white;
+    display: inherit;
+    text-align: center;
+}
+
+.IntroPic {
+    border-radius:  15px 15px 15px 15px;
+    width: 100%;
+    opacity: 100%;
+}
+/*
+body{
+    font-family: 'Nunito', sans-serif;   
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    background: #000000;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+nav{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: inherit;
+    font-size: 20px;
+}
+
+ .navBar{
+    margin-bottom: 5px;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 30px;
+ }
+
+ .navBar::before{
+    content: "";
+    background-color: purple;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0%;
+    transition: ease-in-out 250ms;
+ }
+
+ .navBar:hover::before {
+    opacity: 100%;
+ }
+
+
+footer{
+    border-radius: 15px 15px;
+    display: inline-block;
+    position: static;
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+i{
+    color:#ffffff;
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+*/
