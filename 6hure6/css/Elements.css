@@ -9,7 +9,7 @@
 .logo {
   height: 10%;
   width: 7%;
-  position: fixed;
+  position: static;
   top: 1%;
 }
 
