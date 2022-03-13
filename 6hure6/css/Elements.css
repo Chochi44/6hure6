@@ -137,3 +137,17 @@ a:active {
   outline-color: rgba(238, 130, 238, 0.726);
   outline-width: 10px;
 }
+
+.SolarText {
+  display: block;
+  color: white;
+  opacity: 100%;
+  margin: 20px 30px 10px 30px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  line-height: 45px;
+  outline-style: solid;
+  outline-color: rgba(238, 130, 238, 0.726);
+  outline-width: 10px;
+}
