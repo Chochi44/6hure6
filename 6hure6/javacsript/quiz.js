@@ -54,6 +54,7 @@ var quiz = [
   var currentQuestion = 0;
   var score = 0;
   var askingQuestion = true;
+  //kiko
 
   function loadQuestion() {
     var radioButton;
