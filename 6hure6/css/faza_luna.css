@@ -7,18 +7,19 @@ body {
 body {
   background-color: rgb(5, 5, 29);
   text-align: center;
-  color: #49483c;
-  font-family: "Fira Mono", monospace;
+  color: rgb(172, 112, 172);
+  font-family: "Press Start 2P", cursive;
   letter-spacing: 0.01em;
 }
 .moon {
+  margin: auto;
   width: 500px;
   height: 500px;
-  border: 1px solid #50504f;
+  border: 1px solid rgb(172, 112, 172);
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-  background-color: #50504f;
+  background-color: rgb(172, 112, 172);
   transform: translateZ(0);
 }
 .moon::before {
@@ -52,7 +53,7 @@ body {
   backface-visibility: hidden;
 }
 .disc::before {
-  background-color: #50504f;
+  background-color: rgb(172, 112, 172);
 }
 .disc::after {
   background-color: rgb(5, 5, 29);

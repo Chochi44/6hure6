@@ -137,9 +137,3 @@ a:active {
   outline-color: rgba(238, 130, 238, 0.726);
   outline-width: 10px;
 }
-
-.MoonText {
-  font-family: "Press Start 2P", cursive;
-  float: right;
-  width: 50%;
-}
